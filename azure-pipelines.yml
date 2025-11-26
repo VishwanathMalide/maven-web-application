@@ -6,7 +6,7 @@ resources:
 
 variables:
   dockerRegistryServiceConnection: 'DockerHub-Connection'   # Name of your service connection
-  imageRepository: 'vishwanathmalid/devops-java'            # Docker Hub repo name
+  imageRepository: 'vishwanathmalide/devops-java'            # Docker Hub repo name
   containerRegistry: 'docker.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: 'v1.1.0'
